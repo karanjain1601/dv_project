@@ -5,6 +5,7 @@ pip install dash-bootstrap-components
 pip install folium
 pip install plotly
 pip install pandas
+pip install requests
 ```
 
 # Run the app from terminal:
@@ -21,11 +22,12 @@ or directly from jupyter notebook using Run All button
 
 Replcae {city} with the name of the city and {api_key} with your API key
 
-In cell three of the notebook, replace the api_key with your own api key
+In cell three of the notebook, replace the your_api_key with your own api key
 ```python
 api_key = "your_api_key"
 
 ```
+You can create your API key from https://openweathermap.org/api
 
 ## Github Link
 https://github.com/karanjain1601/dv_project
