@@ -8,12 +8,6 @@ pip install pandas
 pip install requests
 ```
 
-# Run the app from terminal:
-```bash
-ipython -c "%c main.ipynb"
-```
-or directly from jupyter notebook using Run All button
-
 ## Using OpenWeatherMap Geolocation API to get the location of the city
 
 
@@ -27,8 +21,17 @@ In cell three of the notebook, replace the your_api_key with your own api key
 api_key = "your_api_key"
 
 ```
+
+# Run the app from terminal:
+Open the terminal in dv_project directory
+```bash
+ipython -c "%c main.ipynb"
+```
+or directly from jupyter notebook using Run All button in main.ipynb
+
+
 You can create your API key from https://openweathermap.org/api
 
-## Github Link
+# Github Link
 https://github.com/karanjain1601/dv_project
 
